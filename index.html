@@ -44,7 +44,7 @@
             <div class="container">
                 <section class="nav-container">
                     <div class="nav-header">
-                        <a href="#!">
+                        <a href="#">
                             <img
                                 src="./asset/img/Logo-lucy.svg"
                                 alt="Lucy"
@@ -987,10 +987,12 @@
                                 </div>
                             </div>
                             <div class="pagination-dots">
-                                <span class="dot dot-active"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
-                                <span class="dot"></span>
+                                <a href="#!"
+                                    ><span class="dot dot-active"> </span>
+                                </a>
+                                <a href="#!"><span class="dot"></span></a>
+                                <a href="#!"><span class="dot"></span></a>
+                                <a href="#!"><span class="dot"></span></a>
                             </div>
                         </div>
                         <button class="reviews__btn">
@@ -1121,42 +1123,54 @@
         <footer class="footer">
             <div class="footer-container">
                 <div class="footer-left-section" data-aos="zoom-in-right">
-                    <div class="footer__logo">
-                        <img src="./asset/img/Logo-lucy.svg" alt="Lucy Logo" />
-                    </div>
+                    <a href="#">
+                        <div class="footer__logo">
+                            <img
+                                src="./asset/img/Logo-lucy.svg"
+                                alt="Lucy Logo"
+                            />
+                        </div>
+                    </a>
 
-                    <div class="footer__send-email">
-                        <form action="#" method="post">
+                    <div>
+                        <form
+                            action="#"
+                            method="post"
+                            class="footer__send-email"
+                        >
                             <input
                                 class="email-input"
                                 type="email"
                                 placeholder="Enter your email"
                             />
-                        </form>
-                        <button type="submit" class="footer__send-email--btn">
-                            <svg
-                                width="20"
-                                height="20"
-                                viewBox="0 0 20 20"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
+                            <button
+                                type="submit"
+                                class="footer__send-email--btn"
                             >
-                                <path
-                                    d="M3.125 10H16.875"
-                                    stroke="currentcolor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                                <path
-                                    d="M11.25 4.375L16.875 10L11.25 15.625"
-                                    stroke="currentcolor"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                            </svg>
-                        </button>
+                                <svg
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 20 20"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3.125 10H16.875"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M11.25 4.375L16.875 10L11.25 15.625"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </form>
                     </div>
 
                     <div class="follow-us-section">
@@ -1260,11 +1274,25 @@
 
                     <div class="footer-column contact-info">
                         <h3 class="column-title">Contact Info</h3>
-                        <address class="link-list">
-                            <p class="link-item">abc@gmail.com</p>
-                            <p class="link-item">0 (800)-000-00-00</p>
-                            <p class="link-item">New York, NY, Rocaway 7</p>
-                        </address>
+                        <ul class="link-list" class="link-list">
+                            <li>
+                                <a class="link-item" href="mailto:abc@gmail.com"
+                                    >abc@gmail.com</a
+                                >
+                            </li>
+                            <li>
+                                <a class="link-item" href="tel:0(800)-000-00-00"
+                                    >0 (800)-000-00-00
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    class="link-item"
+                                    href="https://maps.app.goo.gl/y9enRcXhZpdW4Du37"
+                                    >New York, NY, Rocaway 7</a
+                                >
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="footer-column opening-time">

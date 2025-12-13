@@ -1125,6 +1125,9 @@ a {
     background: transparent;
 }
 .footer__send-email--btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     width: 45px;
     height: 46px;
