@@ -984,7 +984,7 @@ a {
     border: 1px solid #ff5b2e;
 }
 .dot-active {
-    width: 72px;
+    width: 24px;
     height: 8px;
     border-radius: 4px;
     background: #ff5b2e;
