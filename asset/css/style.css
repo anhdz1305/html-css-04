@@ -38,12 +38,18 @@ a {
 
 /* header */
 .header {
-    padding: 26px 0;
+    background: #fffaf5;
+}
+.sticky {
+    position: sticky;
+    top: -14px;
+    z-index: 10;
 }
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 26px 0 12px;
 }
 .nav-list {
     display: flex;
@@ -885,6 +891,7 @@ a {
     align-items: center;
 }
 .reviews__btn {
+    cursor: pointer;
     width: 54px;
     height: 54px;
     border-radius: 54px;
